@@ -3,7 +3,12 @@
 This bundle plugin provides a portlet that can be used to display google analytic data within dotCMS' administrative.
 
 
-## How to build this example
+## Prerequisites
+
+1. Make sure you are using Google Analytics on your web property
+2. You need to create a dashboard using https://datastudio.google.com.  Doing so will give you the embed code to use with the portlet view.vtl
+3. Replace the src="https://datastudio.google.com/embed/reporting/XXXXXXXXXXXXXXXXXX/page/xxx"  here https://github.com/dotCMS/com.dotcms.ga.dashboard/blob/master/src/main/resources/ext/view.vtl#L1  with the embed link to your new google dashboard.
+
 
 To install all you need to do is build the JAR. to do this run
 `./gradlew jar`
