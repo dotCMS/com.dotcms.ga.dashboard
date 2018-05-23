@@ -6,7 +6,9 @@ This bundle plugin provides a portlet that can be used to display google analyti
 ## Prerequisites
 
 1. Make sure you are using Google Analytics on your web property
-2. You need to create a dashboard using https://datastudio.google.com.  Doing so will give you the embed code to use with the portlet view.vtl
+
+2. You need to create a dashboard using https://datastudio.google.com.  Doing so will give you the embed code to use with the portlet view.vtl.  To get you started, you can clone this template which is filled with dummy data: https://datastudio.google.com/u/0/reporting/1cWJ9dg0BOU-fQ7I0OpTsAwR9UWy-V7hg/page/sBV
+
 3. Replace the src="https://datastudio.google.com/embed/reporting/XXXXXXXXXXXXXXXXXX/page/xxx"  here https://github.com/dotCMS/com.dotcms.ga.dashboard/blob/master/src/main/resources/ext/view.vtl#L1  with the embed link to your new google dashboard.
 
 
