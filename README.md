@@ -1,4 +1,9 @@
-# README
+# Archived
+
+New home: https://github.com/dotcms-plugins/com.dotcms.ga.dashboard
+
+
+
 
 This bundle plugin provides a portlet that can be used to display google analytic data within dotCMS' administrative.
 
